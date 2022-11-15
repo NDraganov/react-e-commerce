@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.description {
+    padding-top: 60px;
+    text-align: left;
+}
+.sneaker-company {
+    color: orange;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sneaker-title {
+    padding-top: 20px;
+    padding-right: 50px;
+    font-size: 50px;
+    line-height: 1.1;
+    color: hsl(220, 13%, 13%);
+}
+.sneaker-description {
+    padding-top: 50px;
+    padding-right: 200px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: hsl(219, 9%, 45%);
+}
+.colors {
+    color: hsl(220, 13%, 13%);
+    color: hsl(220, 14%, 75%);
+    color: hsl(223, 64%, 98%);
+    color: hsl(219, 9%, 45%);
+    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+}

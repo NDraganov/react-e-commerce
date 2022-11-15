@@ -1,0 +1,10 @@
+.img {
+    width: 20%;
+    border-radius: 10px;
+}
+.photos {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 163px;
+}
