@@ -11,14 +11,14 @@
 }
 .sneaker-title {
     padding-top: 20px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     font-size: 50px;
     line-height: 1.1;
     color: hsl(220, 13%, 13%);
 }
 .sneaker-description {
     padding-top: 50px;
-    padding-right: 200px;
+    padding-right: 100px;
     font-size: 16px;
     line-height: 1.7;
     color: hsl(219, 9%, 45%);

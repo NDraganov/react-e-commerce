@@ -1,0 +1,118 @@
+.galleryWrap {
+    margin-top: 20px;
+    width: 90%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .galleryWrap .single {
+    border: 3px solid transparent;
+    border-radius: 10px;
+  }
+  .galleryWrap .single:checked {
+    border: 3px solid orange;
+    border-radius: 10px;
+  }
+  .galleryWrap .single img {
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .galleryWrap .single img:hover {
+    background-color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+  }
+  
+  .sliderWrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+.sliderWrap .btnPrev, .sliderWrap .btnNext {
+    position: fixed;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: hsl(0, 0%, 100%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  button img:hover {
+    color: orange;
+  }
+  .btnNext:hover, .btnPrev:hover, .btnClose:hover {
+    
+  }
+  
+  .sliderWrap .btnClose {
+    position: fixed;
+    top: 80px;
+    right: 500px;
+  }
+  
+  .sliderWrap .btnPrev {
+    top: 45%;
+    left: 450px;
+  }
+  
+  .sliderWrap .btnNext {
+    top: 45%;
+    right: 490px;
+  }
+  
+  .fullScreenImage {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fullScreenImage img {
+    max-width: 100%;
+    max-height: 70%;
+    border-radius: 11px;
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
+  }
+  .container-LB {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    left: 330px;
+  }
+  .container-LB .singleLB {
+    width: 11%;
+  }
+  .container-LB img {
+    border-radius: 10px;
+  }
+  .singleLB img:hover {
+    background-color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+  }
+@media only screen and (max-width: 600px) {
+    .galleryWrap {
+        display: none;
+    }
+}

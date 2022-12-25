@@ -19,22 +19,123 @@ ul li {
     padding: 50px 20px 0px;
     height: 120px;
     color: hsl(219, 9%, 45%);
-    
 }
 a {
-    padding-bottom: 100px;
+    text-decoration: none;
 }
-.bottom-highlight:hover {
+.link:hover {
+    padding-bottom: 47px;
     border-bottom: 10px solid orange;
 }
 .left-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    width: 20%;
+}
+.basket {
+    display: flex;
+    width: 100%;
 }
 .cart {
-
+    cursor: pointer;
+}
+.count-basket {
+    position: absolute;
+    top: 53px;
+    right: 190px;
+    z-index: 1;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    width: 2%;
+    height: 15%;
+    /* width: 2%;
+    height: 15%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
 .avatar {
     width: 30%;
+}
+.avatar:hover {
+    border: 4px solid orange;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.modul {
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    width: 440px;
+    height: 300px;
+    z-index: 1;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.empty {
+    text-align: center;
+    padding-top: 80px;
+}
+.cart-info {
+    text-align: center;
+    margin-top: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.thumb {
+    width: 20%;
+    border-radius: 10px;
+}
+.check-btn {
+    background-color: orange;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    margin: 30px auto 10px;
+}
+
+.side-nav {
+    background-color: hsl(0, 0%, 100%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 65vw;
+    z-index: 2;
+    padding: 30px 30px;
+}
+.side-nav p:first-of-type {
+    margin-top: 50px;
+}
+.side-nav p {
+    font-size: 16px;
+    font-weight: 700;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}
+.menu-icon {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+    .links {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
 }
